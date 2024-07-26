@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="assets/js/wallet.js"></script>
+    <title>Maliont Wallet</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logotype">
+        <img id="logotype-img" src="assets/img/logotype.svg" alt="" />
+      </div>
+      <div id="m-id">
+        <a href=""><img id="m-id-img" src="assets/img/m-id.svg" alt="" /></a>
+      </div>
+    </header>
+    <div id="wallet">
+      <span id="wallet-name">Wallet</span>
+      <span id="balance-wallet">0 ₽</span>
+      <span id="wallet-number">0000</span>
+    </div>
+    <div id="crypto-list">
+      <div id="bitcoin">
+        <img src="assets/img/bitcoin.svg" alt="" />
+        <div id="bitcoin-info">
+          <span id="bitcoin-name">Bitcoin</span>
+          <span id="bitcoin-price"></span>
+        </div>
+        <div id="bitcoin-balances">
+          <span id="bitcoin-balance-₽">0,00 ₽</span>
+          <span id="bitcoin-balance">0,00 BTC</span>
+        </div>
+      </div>
+      <div id="ethereum">
+        <img src="assets/img/ethereum.svg" alt="" />
+        <div id="ethereum-info">
+          <span id="ethereum-name">Ethereum</span>
+          <span id="ethereum-price"></span>
+        </div>
+        <div id="ethereum-balances">
+          <span id="ethereum-balance-₽">0,00 ₽</span>
+          <span id="ethereum-balance">0,00 ETH</span>
+        </div>
+      </div>
+      <div id="toncoin">
+        <img src="assets/img/toncoin.svg" alt="" />
+        <div id="toncoin-info">
+          <span id="toncoin-name">Toncoin</span>
+          <span id="toncoin-price"></span>
+        </div>
+        <div id="toncoin-balances">
+          <span id="toncoin-balance-₽">0,00 ₽</span>
+          <span id="toncoin-balance">0,00 TON</span>
+        </div>
+      </div>
+    </div>
+    <div id="stock-list">
+      <div id="aapl">
+        <img src="assets/img/aapl.svg" alt="" />
+        <div id="aapl-info">
+          <span id="aapl-name">AAPL</span>
+          <span id="aapl-price"></span>
+        </div>
+        <div id="aapl-balances">
+          <span id="aapl-balance-₽">0,00 ₽</span>
+          <span id="aapl-balance">0,00 AAPL</span>
+        </div>
+      </div>
+      <div id="tsla">
+        <img src="assets/img/tsla.svg" alt="" />
+        <div id="tsla-info">
+          <span id="tsla-name">TSLA</span>
+          <span id="tsla-price"></span>
+        </div>
+        <div id="tsla-balances">
+          <span id="tsla-balance-₽">0,00 ₽</span>
+          <span id="tsla-balance">0,00 TSLA</span>
+        </div>
+      </div>
+    </div>
+    <div id="pay">
+      <button id="pay-with-m-pay"></button>
+    </div>
+    <div id="pin-container" style="display: none">
+      <header id="welcome-header">
+        <img id="welcome-logotype-img" src="assets/img/logotype.svg" alt="" />
+      </header>
+      <span id="welcome-text">Встречайте Maliont Wallet</span>
+      <label for="pin-input">Введите PIN-код:</label>
+      <input type="password" id="pin-input" maxlength="4" />
+      <button id="submit-pin">Подтвердить</button>
+      <div id="message"></div>
+      <div id="success-alert"></div>
+    </div>
+  </body>
+</html>

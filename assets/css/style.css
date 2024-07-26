@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#logotype-img {
+  width: 130px;
+}
+
+#m-id-img {
+  width: 50px;
+}
+
+#wallet {
+  width: 360px;
+  height: 140px;
+  background-color: #111111;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#wallet-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #fffc;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+#balance-wallet {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 18px;
+}
+
+#wallet-number {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #fffc;
+  margin-top: 10px;
+  margin-left: 18px;
+}
+
+#crypto-list {
+  width: 360px;
+  height: 200px;
+  margin-top: 15px;
+  background-color: #111111;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#bitcoin {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#bitcoin img {
+  margin-right: 10px;
+}
+
+#bitcoin-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#bitcoin-name {
+  color: #fff;
+}
+
+#bitcoin-price {
+  font-size: 11px;
+  color: #fffc;
+}
+
+#bitcoin-balances {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 15px;
+}
+
+#bitcoin-balance-₽ {
+  color: #fff;
+  font-size: 14px;
+}
+
+#bitcoin-balance {
+  color: #fffc;
+  font-size: 12px;
+}
+
+#ethereum {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#ethereum img {
+  margin-right: 10px;
+}
+
+#ethereum-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#ethereum-name {
+  color: #fff;
+}
+
+#ethereum-price {
+  font-size: 11px;
+  color: #fffc;
+}
+
+#ethereum-balances {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 15px;
+}
+
+#ethereum-balance-₽ {
+  color: #fff;
+  font-size: 14px;
+}
+
+#ethereum-balance {
+  color: #fffc;
+  font-size: 12px;
+}
+
+#toncoin {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#toncoin img {
+  margin-right: 10px;
+}
+
+#toncoin-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#toncoin-name {
+  color: #fff;
+}
+
+#toncoin-price {
+  font-size: 11px;
+  color: #fffc;
+}
+
+#toncoin-balances {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 15px;
+}
+
+#toncoin-balance-₽ {
+  color: #fff;
+  font-size: 14px;
+}
+
+#toncoin-balance {
+  color: #fffc;
+  font-size: 12px;
+}
+
+#aapl {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#aapl img {
+  margin-right: 10px;
+}
+
+#aapl-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#aapl-name {
+  color: #fff;
+}
+
+#aapl-price {
+  font-size: 11px;
+  color: #fffc;
+}
+
+#aapl-balances {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 15px;
+}
+
+#aapl-balance-₽ {
+  color: #fff;
+  font-size: 14px;
+}
+
+#aapl-balance {
+  color: #fffc;
+  font-size: 12px;
+}
+
+#tsla {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#tsla img {
+  margin-right: 10px;
+}
+
+#tsla-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#tsla-name {
+  color: #fff;
+}
+
+#tsla-price {
+  font-size: 11px;
+  color: #fffc;
+}
+
+#tsla-balances {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 15px;
+}
+
+#tsla-balance-₽ {
+  color: #fff;
+  font-size: 14px;
+}
+
+#tsla-balance {
+  color: #fffc;
+  font-size: 12px;
+}
+
+#pay-with-m-pay {
+  width: 360px;
+  height: 60px;
+  background-image: url(../img/pay-using-m-pay.svg);
+  border: none;
+  border-radius: 10px;
+  margin-top: 130px;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#stock-list {
+  width: 360px;
+  height: 140px;
+  margin-top: 25px;
+  background-color: #111111;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#pin-container {
+  font-family: "Comfortaa", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+
+#pin-input {
+  margin-top: 35px;
+  appearance: none;
+  width: 200px;
+  height: auto;
+  outline: none;
+  border: none;
+  padding: 16px 90px 16px 24px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0em;
+  line-height: 1em;
+  background: rgba(255, 255, 255, 0.01);
+  color: rgb(255, 255, 255);
+  box-shadow: inset 0 0 0 1px
+    var(--maliont-background-color, rgba(255, 255, 255, 0.08));
+}
+
+#submit-pin {
+  font-family: "Comfortaa", sans-serif;
+  margin-top: 35px;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  background-color: #111111;
+  color: #fff;
+}
+
+#message {
+  font-family: "Comfortaa", sans-serif;
+  color: red;
+  margin-top: 10px;
+}
+
+#welcome-text {
+  font-size: 19px;
+  padding: 20px;
+}
+
+#welcome-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+#success-alert {
+  color: #fffc;
+  display: none;
+}
